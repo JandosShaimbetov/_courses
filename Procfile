@@ -1,1 +1,1 @@
-web: gunicorn courses.wsgi --log-file -
+web: waitress-serve --port=8000 myapp.wsgi:application
