@@ -1,1 +1,1 @@
-web: waitress-serve --port=8000 --threads=$WEB_CONCURRENCY --asyncore-use-poll --backlog=4096 courses.wsgi:application
+web: waitress-serve --port=8000 --threads=$WEB_CONCURRENCY --asyncore-use-poll --backlog=4096 course.wsgi:application
